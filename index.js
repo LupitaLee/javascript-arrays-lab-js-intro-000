@@ -18,6 +18,9 @@ return kittens
 }
 
 function appendKitten(name){
-  kittens.slice(1);
-  return name
+return [...kittens, name];
+}
+
+function prependKitten(name){
+  return [name, ...kittens];
 }
