@@ -6,6 +6,7 @@ return kittens;
 }
 //send kieetend to the end of the array
 function Arrays destructivelyPrependKitten(name){kittens.unshift(name);
-return kittens;}
+return kittens;
+}
 //Arrays destructivelyPrependKitten(name)
 // prepends a kitten to the beginning of the kittens array:
