@@ -9,6 +9,6 @@ kittens.unshift(name);
 return kittens;}
 
 function destructivelyRemoveLastKitten(kittens) {
-  kittens.pops();
+  kittens.pop();
   return kittens
 }
