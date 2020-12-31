@@ -19,5 +19,5 @@ return kittens
 
 function appendKitten(name){
   kittens.slice(1);
-  return kittens
+
 }
